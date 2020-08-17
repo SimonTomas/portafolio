@@ -1,3 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* ABOUT */
+.about h3{
+    font-size: 25pt;
+}
+.about p{
+    line-height: 2em;
+}
