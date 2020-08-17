@@ -24,13 +24,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active px-3 d-none d-md-block" href="#">Sobre mi</a>
+                    <a class="nav-link active px-3 d-none d-md-block" href="#about">Sobre mi</a>
                     <div class="dropdown-divider d-none d-md-block"></div>
-                    <a class="nav-link active px-3" href="#">Experiencia</a>
+                    <a class="nav-link active px-3" href="#exp">Experiencia</a>
                     <div class="dropdown-divider"></div>
-                    <a class="nav-link active px-3" href="#">Trabajos</a>
+                    <a class="nav-link active px-3" href="#works">Trabajos</a>
                     <div class="dropdown-divider"></div>
-                    <a class="nav-link active px-3" href="#">Contacto</a>
+                    <a class="nav-link active px-3" href="#contact">Contacto</a>
                     <div class="dropdown-divider"></div>
                 </div>
             </div>
@@ -56,11 +56,155 @@
                 </div>
             </div>
         </section>
-        <!-- Carrusel -->
-        <section class="mt-5 py-5">
+        <section id="exp" class="mt-5 py-5">
             <h2 class="text-center font-weight-bold">MI EXPERIENCIA</h2>
             <hr class="w-25 mt-3 mb-5 bg-dark">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <!-- Reponsive -->
+            <div class="container d-md-none">
+                <div class="row text-center">
+                    <!-- Catador -->
+                    <div class="col-12 col-sm-6">
+                        <i class="fa fa-beer fa-5x px-5 text-warning" aria-hidden="true" data-toggle="modal" data-target="#catador2" role="button"></i>
+                        <h5 class="mt-3">Catador de Cervezas</h5>
+                        <p>1980 - 2014</p>
+                    </div>
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="catador2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Catador de Cervezas</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <figure>
+                                        <img src="assets/img/cerveza.png" alt="Cerveza" class="w-100 h-100">
+                                    </figure>
+                                    <h5 class="text-center mt-4 font-weight-bold">Funciones</h5>
+                                    <ul class="text-left font-weight-light mt-3">
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Conductor -->
+                    <div class="col-12 col-sm-6">
+                        <i class="fa fa-car fa-5x px-5 text-danger" aria-hidden="true" data-toggle="modal" data-target="#conductor" role="button"></i>
+                        <h5 class="mt-3">Conductor de Formula 1</h5>
+                        <p>1980 - 2014</p>
+                    </div>
+                    <!-- Modal 2 -->
+                    <div class="modal fade" id="conductor2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Conductor de Formula 1</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <figure>
+                                        <img src="assets/img/formula1.png" alt="Conductor" class="w-100 h-100">
+                                    </figure>
+                                    <h5 class="text-center mt-4 font-weight-bold">Funciones</h5>
+                                    <ul class="text-left font-weight-light mt-3">
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Animador -->
+                    <div class="col-12 col-sm-6 mt-3">
+                        <i class="fa fa-birthday-cake fa-5x px-5 text-success" aria-hidden="true" data-toggle="modal" data-target="#animador" role="button"></i>
+                        <h5 class="mt-3">Animador de Cumpleaños</h5>
+                        <p>1980 - 2014</p>
+                    </div>
+                    <!-- Modal 3 -->
+                    <div class="modal fade" id="animador2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Animador de Cumpleaños</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <figure>
+                                        <img src="assets/img/cumple.png" alt="Cumpleaños" class="w-100 h-100">
+                                    </figure>
+                                    <h5 class="text-center mt-4 font-weight-bold">Funciones</h5>
+                                    <ul class="text-left font-weight-light mt-3">
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Desarrollador -->
+                    <div class="col-12 col-sm-6 mt-3">
+                        <i class="fa fa-facebook fa-5x px-5 text-primary" aria-hidden="true" data-toggle="modal" data-target="#desarrollador" role="button"></i>
+                        <h5 class="mt-3">Desarrollador</h5>
+                        <p>1980 - 2014</p>
+                    </div>
+                    <div class="modal fade" id="desarrollador2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Desarrollador</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <figure>
+                                        <img src="assets/img/facebook.png" alt="Cerveza" class="w-100 h-100">
+                                    </figure>
+                                    <h5 class="text-center mt-4 font-weight-bold">Funciones</h5>
+                                    <ul class="text-left font-weight-light mt-3">
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                        <li class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem voluptatem deleniti, quae sed aperiam?</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MD -->
+            <div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active text-center">
                         <div class="d-flex justify-content-center">
@@ -138,7 +282,7 @@
                     </div>
                     <div class="carousel-item text-center">
                         <div class="d-flex justify-content-center">
-                            <!-- Animador de Cumpleaños -->
+                            <!-- Animador -->
                             <div class="px-5">
                                 <i class="fa fa-birthday-cake fa-5x px-5 text-success" aria-hidden="true" data-toggle="modal" data-target="#animador" role="button"></i>
                                 <h5 class="mt-3">Animador de Cumpleaños</h5>
@@ -221,7 +365,7 @@
                 </a>
             </div>
         </section>
-        <section class="bg-dark mt-5 p-5">
+        <section id="works" class="bg-dark mt-5 p-5">
             <h2 class="text-center text-light font-weight-bold">MIS ÚLTIMOS TRABAJOS</h2>
             <hr class="bg-light w-25">
             <!-- Card Deck 1 -->
@@ -279,7 +423,7 @@
                 </a>
             </div>
         </section>
-        <section class="mt-5">
+        <section id="contact" class="mt-5">
             <h2 class="text-center font-weight-bold">CONTACTO</h2>
             <hr class="w-25 bg-dark">
             <div class="typeform-widget" data-url="https://form.typeform.com/to/H6oafxpU" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=H6oafxpU&utm_source=typeform.com-01EFGD2CYFGCTYTDR707M7M1AM-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
